@@ -20,7 +20,8 @@ export default function ProductDetails() {
         </div>
       </div>
       <Routes>
-        <Route path="offers" element={<Offers />} /></Routes>
+        <Route path="/offers" element={<Offers />} />
+      </Routes>
 
     </div>
   )
